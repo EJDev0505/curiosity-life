@@ -1,0 +1,831 @@
+.text-primary {
+  color: #ffffff;
+}
+
+.text-secondary {
+  color: #ffc107;
+}
+
+.text-head {
+  color: #37B9F1;
+}
+
+.text-text-info {
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: #ffffff;
+}
+
+.bg-secondary {
+  background-color: #e06a1b;
+}
+
+.bg-success {
+  background-color: #28a745;
+}
+
+.bg-warning {
+  background-color: #ffc107;
+}
+
+.bg-danger {
+  background-color: #dc3545;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.bg-dark {
+  background-color: #212529;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-p {
+  height: 3rem;
+}
+
+.h-sm {
+  height: 5rem;
+}
+
+.h-md {
+  height: 10rem;
+}
+
+.h-lg {
+  height: 20rem;
+}
+
+.h-half {
+  height: 50%;
+}
+
+.h-semifull {
+  height: 75%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-p {
+  width: 3rem;
+}
+
+.w-sm {
+  width: 5rem;
+}
+
+.w-md {
+  width: 10rem;
+}
+
+.w-lg {
+  width: 20rem;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.w-semifull {
+  width: 75%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.g-auto {
+  gap: auto;
+}
+
+.g-sm {
+  gap: 2rem;
+}
+
+.g-md {
+  gap: 4rem;
+}
+
+.g-lg {
+  gap: 8rem;
+}
+
+.g-3xl {
+  gap: 8rem;
+}
+
+.g-4xl {
+  gap: 15rem;
+}
+
+.g-5xl {
+  gap: 20rem;
+}
+
+.g-6xl {
+  gap: 25rem;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-auto {
+  padding: auto;
+}
+
+.p-sm {
+  padding: 0.5rem;
+}
+
+.p-md {
+  padding: 1rem;
+}
+
+.p-lg {
+  padding: 2rem;
+}
+
+.p-xl {
+  padding: 3rem;
+}
+
+.p-xxl {
+  padding: 4rem;
+}
+
+.p-3xl {
+  padding: 8rem;
+}
+
+.p-4xl {
+  padding: 15rem;
+}
+
+.p-5xl {
+  padding: 20rem;
+}
+
+.p-6xl {
+  padding: 25rem;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-auto {
+  padding-left: auto;
+}
+
+.pl-sm {
+  padding-left: 0.5rem;
+}
+
+.pl-md {
+  padding-left: 1rem;
+}
+
+.pl-lg {
+  padding-left: 2rem;
+}
+
+.pl-xl {
+  padding-left: 3rem;
+}
+
+.pl-xxl {
+  padding-left: 4rem;
+}
+
+.pl-3xl {
+  padding-left: 8rem;
+}
+
+.pl-4xl {
+  padding-left: 15rem;
+}
+
+.pl-5xl {
+  padding-left: 20rem;
+}
+
+.pl-6xl {
+  padding-left: 25rem;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pr-auto {
+  padding-right: auto;
+}
+
+.pr-sm {
+  padding-right: 0.5rem;
+}
+
+.pr-md {
+  padding-right: 1rem;
+}
+
+.pr-lg {
+  padding-right: 2rem;
+}
+
+.pr-xl {
+  padding-right: 3rem;
+}
+
+.pr-xxl {
+  padding-right: 4rem;
+}
+
+.pr-3xl {
+  padding-right: 8rem;
+}
+
+.pr-4xl {
+  padding-right: 15rem;
+}
+
+.pr-5xl {
+  padding-right: 20rem;
+}
+
+.pr-6xl {
+  padding-right: 25rem;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+.pt-auto {
+  padding-top: auto;
+}
+
+.pt-sm {
+  padding-top: 0.5rem;
+}
+
+.pt-md {
+  padding-top: 1rem;
+}
+
+.pt-lg {
+  padding-top: 2rem;
+}
+
+.pt-xl {
+  padding-top: 3rem;
+}
+
+.pt-xxl {
+  padding-top: 4rem;
+}
+
+.pt-3xl {
+  padding-top: 8rem;
+}
+
+.pt-4xl {
+  padding-top: 15rem;
+}
+
+.pt-5xl {
+  padding-top: 20rem;
+}
+
+.pt-6xl {
+  padding-top: 25rem;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pb-auto {
+  padding-bottom: auto;
+}
+
+.pb-sm {
+  padding-bottom: 0.5rem;
+}
+
+.pb-md {
+  padding-bottom: 1rem;
+}
+
+.pb-lg {
+  padding-bottom: 2rem;
+}
+
+.pb-xl {
+  padding-bottom: 3rem;
+}
+
+.pb-xxl {
+  padding-bottom: 4rem;
+}
+
+.pb-3xl {
+  padding-bottom: 8rem;
+}
+
+.pb-4xl {
+  padding-bottom: 15rem;
+}
+
+.pb-5xl {
+  padding-bottom: 20rem;
+}
+
+.pb-6xl {
+  padding-bottom: 25rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-sm {
+  margin: 0.5rem;
+}
+
+.m-md {
+  margin: 1rem;
+}
+
+.m-lg {
+  margin: 2rem;
+}
+
+.m-xl {
+  margin: 3rem;
+}
+
+.m-xxl {
+  margin: 4rem;
+}
+
+.m-3xl {
+  margin: 8rem;
+}
+
+.m-4xl {
+  margin: 15rem;
+}
+
+.m-5xl {
+  margin: 20rem;
+}
+
+.m-6xl {
+  margin: 25rem;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.ml-sm {
+  margin-left: 0.5rem;
+}
+
+.ml-md {
+  margin-left: 1rem;
+}
+
+.ml-lg {
+  margin-left: 2rem;
+}
+
+.ml-xl {
+  margin-left: 3rem;
+}
+
+.ml-xxl {
+  margin-left: 4rem;
+}
+
+.ml-3xl {
+  margin-left: 8rem;
+}
+
+.ml-4xl {
+  margin-left: 15rem;
+}
+
+.ml-5xl {
+  margin-left: 20rem;
+}
+
+.ml-6xl {
+  margin-left: 25rem;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mr-sm {
+  margin-right: 0.5rem;
+}
+
+.mr-md {
+  margin-right: 1rem;
+}
+
+.mr-lg {
+  margin-right: 2rem;
+}
+
+.mr-xl {
+  margin-right: 3rem;
+}
+
+.mr-xxl {
+  margin-right: 4rem;
+}
+
+.mr-3xl {
+  margin-right: 8rem;
+}
+
+.mr-4xl {
+  margin-right: 15rem;
+}
+
+.mr-5xl {
+  margin-right: 20rem;
+}
+
+.mr-6xl {
+  margin-right: 25rem;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mt-sm {
+  margin-top: 0.5rem;
+}
+
+.mt-md {
+  margin-top: 1rem;
+}
+
+.mt-lg {
+  margin-top: 2rem;
+}
+
+.mt-xl {
+  margin-top: 3rem;
+}
+
+.mt-xxl {
+  margin-top: 4rem;
+}
+
+.mt-3xl {
+  margin-top: 8rem;
+}
+
+.mt-4xl {
+  margin-top: 15rem;
+}
+
+.mt-5xl {
+  margin-top: 20rem;
+}
+
+.mt-6xl {
+  margin-top: 25rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.mb-sm {
+  margin-bottom: 0.5rem;
+}
+
+.mb-md {
+  margin-bottom: 1rem;
+}
+
+.mb-lg {
+  margin-bottom: 2rem;
+}
+
+.mb-xl {
+  margin-bottom: 3rem;
+}
+
+.mb-xxl {
+  margin-bottom: 4rem;
+}
+
+.mb-3xl {
+  margin-bottom: 8rem;
+}
+
+.mb-4xl {
+  margin-bottom: 15rem;
+}
+
+.mb-5xl {
+  margin-bottom: 20rem;
+}
+
+.mb-6xl {
+  margin-bottom: 25rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-around {
+  justify-content: space-around;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.jc-evenly {
+  justify-content: space-evenly;
+}
+
+.ai-start {
+  align-items: flex-start;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-end {
+  align-items: flex-end;
+}
+
+.d-row {
+  flex-direction: row;
+}
+
+.d-col {
+  flex-direction: column;
+}
+
+.ta-auto {
+  text-align: auto;
+}
+
+.ta-left {
+  text-align: left;
+}
+
+.ta-right {
+  text-align: right;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.br-0 {
+  border-radius: 0;
+}
+
+.br-sm {
+  border-radius: 5px;
+}
+
+.br-md {
+  border-radius: 10px;
+}
+
+.br-lg {
+  border-radius: 20px;
+}
+
+.br-xl {
+  border-radius: 30px;
+}
+
+.br-percent {
+  border-radius: 50%;
+}
+
+.br-px {
+  border-radius: 50px;
+}
+
+.fw-normal {
+  font-weight: normal;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-semibold {
+  font-weight: 500;
+}
+
+.fw-extrabold {
+  font-weight: 800;
+}
+
+.fw-maxbold {
+  font-weight: 900;
+}
+
+.fs-sm {
+  font-size: 1rem;
+}
+
+.fs-md {
+  font-size: 1.25rem;
+}
+
+.fs-lg {
+  font-size: 2rem;
+}
+
+.fs-xl {
+  font-size: 2.5rem;
+}
+
+.fs-xxl {
+  font-size: 3rem;
+}
+
+.fs-3xl {
+  font-size: 3.5rem;
+}
+
+.fs-4xl {
+  font-size: 4rem;
+}
+
+.line-relative {
+  position: relative;
+}
+
+.line-absolute {
+  position: absolute;
+}
+
+.line-sticky {
+  position: sticky;
+}
+
+.line-fixed {
+  position: fixed;
+}
+
+.td-none {
+  text-decoration: none;
+}
+
+.b-primary {
+  border: 2px solid #ffffff;
+}
+
+.o-hidden {
+  overflow: hidden;
+}
+
+.c-p {
+  cursor: pointer;
+}
+
+* {
+  font-family: "Andika", sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/public/human-daily-life-on-rainy-day-enjoying-rainfall-and-happy-life-lively-rainy-season-concept-generative-ai-free-photo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  transition: 1s ease-in-out;
+}
+
+.active {
+  scale: 1.5;
+  border: 2px solid #e06a1b;
+  transition: 0.5s ease-out;
+}
+
+@media screen and (max-width: 1900px) {
+  #listner {
+    padding-top: 18rem;
+  }
+  #info-section {
+    padding-top: 15rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  #list-a a {
+    display: none;
+  }
+  #list-a svg {
+    display: flex;
+  }
+  #logo {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  #listner {
+    padding-top: 13rem;
+  }
+  #info-section {
+    padding-top: 18rem;
+  }
+  #info-section #head {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  #listner {
+    padding-top: 13rem;
+    gap: 1rem;
+  }
+  #info-section {
+    padding-top: 20rem;
+  }
+  #info-section #head {
+    font-size: 2rem;
+  }
+  #info-section #info {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=main.css.map */

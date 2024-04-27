@@ -1,0 +1,372 @@
+$utilities: (
+  "color": (
+    "prefix": "text",
+    "values": (
+      "primary": $primary-color,
+      "secondary": #ffc107,
+      "head": #37B9F1,
+      "text-info": #fff,
+    ),
+  ),
+
+  "background-color": (
+    "prefix": "bg",
+    "values": (
+      "primary": $primary-color,
+      "secondary": $secondary-color,
+      "success": #28a745,
+      "warning": #ffc107,
+      "danger": #dc3545,
+      "light": #f8f9fa,
+      "dark": #212529,
+    ),
+  ),
+
+  "height": (
+    "prefix": "h",
+    "values": (
+      "auto": auto,
+      "p": 3rem,
+      "sm": 5rem,
+      "md": 10rem,
+      "lg": 20rem,
+      "half": 50%,
+      "semifull": 75%,
+      "full": 100%,
+      "screen": 100vh,
+    ),
+  ),
+
+  "width": (
+    "prefix": "w",
+    "values": (
+      "auto": auto,
+      "p": 3rem,
+      "sm": 5rem,
+      "md": 10rem,
+      "lg": 20rem,
+      "half": 50%,
+      "semifull": 75%,
+      "full": 100%,
+      "screen": 100vw,
+    ),
+  ),
+
+  "gap": (
+    "prefix": "g",
+    "values": (
+      "auto": auto,
+      "sm": 2rem,
+      "md": 4rem,
+      "lg": 8rem,
+      "3xl": 8rem,
+      "4xl": 15rem,
+      "5xl": 20rem,
+      "6xl": 25rem,
+    ),
+  ),
+
+
+  "padding": (
+    "prefix": "p",
+    "values": (
+      "0": 0,
+      "auto": auto,
+      "sm": $base-padding, 
+      "md": $base-padding * 2,
+      "lg": $base-padding * 4,
+      "xl": $base-padding * 6,
+      "xxl": $base-padding * 8,
+      "3xl": 8rem,
+      "4xl": 15rem,
+      "5xl": 20rem,
+      "6xl": 25rem,
+    ),
+  ),
+  "padding-left": (
+    "prefix": "pl",
+    "values": (
+      "0": 0,
+      "auto": auto,
+      "sm": $base-padding, 
+      "md": $base-padding * 2,
+      "lg": $base-padding * 4,
+      "xl": $base-padding * 6,
+      "xxl": $base-padding * 8,
+      "3xl": 8rem,
+      "4xl": 15rem,
+      "5xl": 20rem,
+      "6xl": 25rem,
+    ),
+  ),
+  "padding-right": (
+    "prefix": "pr",
+    "values": (
+      "0": 0,
+      "auto": auto,
+      "sm": $base-padding, 
+      "md": $base-padding * 2,
+      "lg": $base-padding * 4,
+      "xl": $base-padding * 6,
+      "xxl": $base-padding * 8,
+      "3xl": 8rem,
+      "4xl": 15rem,
+      "5xl": 20rem,
+      "6xl": 25rem,
+    ),
+  ),
+  "padding-top": (
+    "prefix": "pt",
+    "values": (
+      "0": 0,
+      "auto": auto,
+      "sm": $base-padding, 
+      "md": $base-padding * 2,
+      "lg": $base-padding * 4,
+      "xl": $base-padding * 6,
+      "xxl": $base-padding * 8,
+      "3xl": 8rem,
+      "4xl": 15rem,
+      "5xl": 20rem,
+      "6xl": 25rem,
+    ),
+  ),
+  "padding-bottom": (
+    "prefix": "pb",
+    "values": (
+      "0": 0,
+      "auto": auto,
+      "sm": $base-padding, 
+      "md": $base-padding * 2,
+      "lg": $base-padding * 4,
+      "xl": $base-padding * 6,
+      "xxl": $base-padding * 8,
+      "3xl": 8rem,
+      "4xl": 15rem,
+      "5xl": 20rem,
+      "6xl": 25rem,
+    ),
+  ),
+
+  "margin": (
+    "prefix": "m",
+    "values": (
+      "0": 0,
+      "auto": auto,
+      "sm": $base-margin, // Replace with your base margin value
+      "md": $base-margin * 2,
+      "lg": $base-margin * 4,
+      "xl": $base-margin * 6,
+      "xxl": $base-margin * 8,
+      "3xl": 8rem,
+      "4xl": 15rem,
+      "5xl": 20rem,
+      "6xl": 25rem,
+    ),
+  ),
+  "margin-left": (
+    "prefix": "ml",
+    "values": (
+      "0": 0,
+      "auto": auto,
+      "sm": $base-margin, // Replace with your base margin value
+      "md": $base-margin * 2,
+      "lg": $base-margin * 4,
+      "xl": $base-margin * 6,
+      "xxl": $base-margin * 8,
+      "3xl": 8rem,
+      "4xl": 15rem,
+      "5xl": 20rem,
+      "6xl": 25rem,
+    ),
+  ),
+
+  "margin-right": (
+    "prefix": "mr",
+    "values": (
+      "0": 0,
+      "auto": auto,
+      "sm": $base-margin, // Replace with your base margin value
+      "md": $base-margin * 2,
+      "lg": $base-margin * 4,
+      "xl": $base-margin * 6,
+      "xxl": $base-margin * 8,
+      "3xl": 8rem,
+      "4xl": 15rem,
+      "5xl": 20rem,
+      "6xl": 25rem,
+      
+    ),
+  ),
+  "margin-top": (
+    "prefix": "mt",
+    "values": (
+      "0": 0,
+      "auto": auto,
+      "sm": $base-margin, // Replace with your base margin value
+      "md": $base-margin * 2,
+      "lg": $base-margin * 4,
+      "xl": $base-margin * 6,
+      "xxl": $base-margin * 8,
+      "3xl": 8rem,
+      "4xl": 15rem,
+      "5xl": 20rem,
+      "6xl": 25rem,
+    ),
+  ),
+  "margin-bottom": (
+    "prefix": "mb",
+    "values": (
+      "0": 0,
+      "auto": auto,
+      "sm": $base-margin, // Replace with your base margin value
+      "md": $base-margin * 2,
+      "lg": $base-margin * 4,
+      "xl": $base-margin * 6,
+      "xxl": $base-margin * 8,
+      "3xl": 8rem,
+      "4xl": 15rem,
+      "5xl": 20rem,
+      "6xl": 25rem,
+      
+    ),
+  ),
+
+  "display": (
+    "prefix": "d",
+    "values": (
+      "flex": flex,
+      "none": none,
+      "inline-flex": inline-flex,
+    ),
+  ),
+
+  "justify-content": (
+    "prefix": "jc",
+    "values": (
+      "center":  center,
+      "around": space-around,
+      "between":space-between,
+      "evenly":space-evenly,
+    ),
+  ),
+
+  "align-items": (
+    "prefix": "ai",
+    "values": (
+      "start": flex-start,
+      "center": center,
+      "end": flex-end,
+    ),
+  ),
+
+  "flex-direction": (
+    "prefix": "d",
+    "values": (
+      "row":  row,
+      "col": column,
+    ),
+  ),
+
+  
+
+  "text-align": (
+    "prefix": "ta",
+    "values": (
+      "auto": auto,
+      "left": left,
+      "right":right,
+      "center":center
+    ),
+  ),
+
+  "border-radius": (
+    "prefix": "br",
+    "values": (
+      "0": 0,
+      "sm": $base-border-radius, 
+      "md": $base-border-radius * 2,
+      "lg": $base-border-radius * 4,
+      "xl": $base-border-radius * 6,
+      "percent": 50%,
+      "px": 50px,
+    ),
+  ),
+
+
+  "font-weight": (
+    "prefix": "fw", 
+    "values": (
+      "normal": normal,  
+      "bold": bold,
+      "light": 300,
+      "semibold": 500,
+      "extrabold": 800,
+      "maxbold": 900,
+    ),
+  ),
+
+  "font-size": (
+    "prefix": "fs", // "fs" is a common convention for font size
+    "values": (
+      "sm": 1rem, // Adjust values as needed
+      "md": 1.25rem,
+      "lg": 2rem,
+      "xl": 2.50rem,
+      "xxl": 3rem,
+      "3xl": 3.50rem,
+      "4xl": 4rem,
+    ),
+  ),
+  
+  "position": (
+    "prefix": "line",
+    "values": (
+      "relative":  relative,
+      "absolute": absolute,
+      "sticky":sticky,
+       "fixed":fixed,
+    ),
+  ),
+  "text-decoration": (
+    "prefix": "td",
+    "values": (
+      "none":  none,
+    ),
+  ),
+
+  "border": (
+    "prefix": "b",
+    "values": (
+      "primary":  2px solid #ffffff,
+    ),
+  ),
+
+  "overflow": (
+    "prefix": "o",
+    "values": (
+      "hidden": hidden,
+    ),
+  ),
+
+  "cursor": (
+    "prefix": "c",
+    "values": (
+      "p": pointer,
+    ),
+  ),
+
+
+
+);
+
+@each $property, $map in $utilities {
+  $prefix: map-get($map, "prefix");
+  $values: map-get($map, "values");
+
+  @each $k, $v in $values {
+    .#{$prefix}-#{$k} {
+      #{$property}: $v;
+    }
+  }
+}

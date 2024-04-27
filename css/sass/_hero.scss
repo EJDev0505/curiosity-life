@@ -1,0 +1,86 @@
+*{
+    font-family: "Andika", sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+#banner{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(/public/human-daily-life-on-rainy-day-enjoying-rainfall-and-happy-life-lively-rainy-season-concept-generative-ai-free-photo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    transition: 1s ease-in-out;
+}
+
+.active{
+    scale: 1.5;
+   border: 2px solid $secondary-color;
+    transition: 0.5s ease-out;
+}
+
+@include xxl{
+    #listner{
+        padding-top: 18rem;
+    }
+    #info-section{
+        padding-top: 15rem;
+       
+    }
+}
+
+@include lg{
+    #list-a {
+
+        a{
+            display: none;
+        }
+
+        svg{
+            display: flex;
+        }
+        
+    }
+    
+   #logo{
+    font-size: 2rem;
+   }
+}
+
+@include md{
+    #listner{
+        padding-top: 13rem;
+    }
+    #info-section{
+        padding-top: 18rem;
+        #head{
+            font-size: 3rem;
+        }
+    }
+}
+
+
+
+@include sm{
+    #listner{
+        padding-top: 13rem;
+        gap: 1rem;
+    }
+
+    #info-section{
+        padding-top: 20rem;
+        #head{
+            font-size: 2rem;
+        }
+
+        #info{
+            font-size: 0.80rem;
+        }
+    }
+
+    
+  
+
+}
